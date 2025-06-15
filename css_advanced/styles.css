@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+header {
+    background-image: url('images/header-image.png');
+    background-size: cover;
+    height: 1300px;
+}
+
+.nav-container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 25px;
+}
+
+.logo {
+    float: left;
+    margin-top: 12px;
+}
+
+.menu-container {
+    float: right;
+}
+
+.menu-container ul {
+    list-style-type: none;
+}
+
+.menu-container ul li {
+    width: 100px;
+    display: inline-block;
+}
+
+.menu-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.school-container h1 {
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    margin-top: 270px;
+    margin-bottom: 0;
+}
+
+.school-container ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.school-container ul li {
+    display: inline-block;
+    width: 100px;
+    list-style-type: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.register-button {
+    background-color: #C271FF;
+    border: none;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.students-container h2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 250px;
+    margin-bottom: 90px;
+}
+.parent {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.child {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.child h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.child p i {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.student-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.testimonial-section {
+    background-color: #C271FF;
+    height: 392px;
+}
+
+.testimonial-container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.testimonial-container blockquote {
+    margin: 0;
+}
+
+.testimonial-container img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.testimonial-container div {
+    display: inline-block;
+    width: 65%;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-top: 115px;
+}
+
+.videos-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+
+.video {
+    width: 20%;
+    height: 335px;
+    display: inline-block;
+    margin-left: 47px;
+    margin-top: 80px;
+}
+
+.video h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.video p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #07162980;
+    margin-bottom: 8px;
+}
+
+.play-button-1 {
+    background-image: url('images/diagonal.png');
+    background-size: cover;
+    background-position: top;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button-2 {
+    background-image: url('images/sad.png');
+    background-size: cover;
+    background-position: center;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button-3 {
+    background-image: url('images/natural.png');
+    background-size: cover;
+    background-position: center;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button-4 {
+    background-image: url('images/happy.png');
+    background-size: cover;
+    background-position: center;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button-1 img, .play-button-2 img, .play-button-3 img, .play-button-4 img {
+    margin: 45px 95px;
+}
+
+.author-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 6px;
+}
+
+.author-info h3 {
+    display: inline-block;
+    font-size: 14px;
+    color: #C271FF;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.rating {
+    float: left;
+    margin-top: 3px;
+}
+
+.rating img {
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.rating-container p {
+    display: inline-block;
+    margin: 0px 0px 0px 85px
+}
+
+.videos-section h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.membership-section {
+    background-color: #071629;
+    color: white;
+    height: 502px;
+}
+
+.membership-section h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 90px;
+}
+
+.membership-section button {
+    background-color: #C271FF;
+    border: none;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 14px 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.membership-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.membership {
+    display: inline-block;
+    width: 20%;
+    margin: 0 25px;
+}

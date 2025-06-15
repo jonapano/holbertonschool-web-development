@@ -8,32 +8,33 @@
 </head>
 <body>
     <header>
-        <a href=""><img src="" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="">COURSES</a></li>
-                <li><a href="">PRICING</a></li>
-                <li><a href="">LOGIN</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
+        <div class="nav-container">
+            <a href="">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </a>
+            <nav class="menu-container">
+                <ul>
+                    <li><a href="" class="logo-container">COURSES</a></li>
+                    <li><a href="" class="logo-container">PRICING</a></li>
+                    <li><a href="" class="logo-container">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
         <section>
-            <div>
+            <div class="school-container">
                 <h1>Get schooled</h1>
                 <ul>
                     <li>SMILES</li>
                     <li>GRIN</li>
                     <li>LAUGH</li>
                 </ul>
-                <button>REGISTER FOR FREE</button>
+                <button class="register-button">REGISTER FOR FREE</button>
             </div>
-            <div>
-                <h2>Learn from the pros</h2>
+            <div class="students-container">
+                <h2><span style="color: #C271FF; font-weight: bold;">Learn</span> from the pros</h2>
                 <div class="parent">
                     <div class="child">
-                        <img src="" alt="">
+                        <img src="images/student_1.png" alt="student 1" class="student-image">
                         <h3>Phillip Massey</h3>
                         <p>
                             <i>
@@ -43,7 +44,7 @@
                         </p>
                     </div>
                     <div class="child">
-                        <img src="" alt="">
+                        <img src="images/student_2.png" alt="student 2" class="student-image">
                         <h3>Nannie Lawrence</h3>
                         <p>
                             <i>
@@ -53,7 +54,7 @@
                         </p>
                     </div>
                     <div class="child">
-                        <img src="" alt="">
+                        <img src="images/student_3.png" alt="student 3" class="student-image">
                         <h3>Bruce Walters</h3>
                         <p>
                             <i>
@@ -63,7 +64,7 @@
                         </p>
                     </div>
                     <div class="child">
-                        <img src="" alt="">
+                        <img src="images/student_4.png" alt="student 4" class="student-image">
                         <h3>Henry Hughes</h3>
                         <p>
                             <i>
@@ -75,125 +76,138 @@
                 </div>
             </div>
         </section>
+    </header>
+
+    <main>
         <section>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <blockquote>&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun! &#187;</blockquote>
-                    <p>Person Name</p>
-                    <p><i>weather presenter</i></p>
+            <div class="testimonial-section">
+                <div class="testimonial-container">
+                    <img src="images/testimonial.png" alt="testimonial">
+                    <div>
+                        <blockquote>&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun! &#187;</blockquote>
+                        <p style="font-weight: 700;">Person Name</p>
+                        <p><i>weather presenter</i></p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <h1>Most <span>popular</span> tutorials</h1>
+        <section class="videos-section">
+            <h1>Most <span style="font-weight: 700; color: #C271FF;">popular</span> tutorials</h1>
             <div class="videos-container">
                 <!-- First Video -->
                 <div class="video">
-                    <img src="" alt="">
+                    <div class="play-button-1">
+                        <img src="images/play.png" alt="play button">
+                    </div>
                     <h2>Diagonal Smile</h2>
                     <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
-                        <img src="" alt="">
+                        <img src="images/student_1.png" alt="student">
                         <h3>Phillip Massey</h3>
                     </div>
                     <div class="rating-container">
                         <div class="rating">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_5.png" alt="star 5">
                         </div>
                         <p>8 min</p>
                     </div>
                 </div>
                 <!-- Second Video -->
                 <div class="video">
-                    <img src="" alt="">
+                    <div class="play-button-2">
+                        <img src="images/play.png" alt="play button">
+                    </div>
                     <h2>Sad Smile</h2>
                     <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
-                        <img src="" alt="">
+                        <img src="images/student_1.png" alt="student">
                         <h3>Phillip Massey</h3>
                     </div>
                     <div class="rating-container">
                         <div class="rating">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_5.png" alt="star 5">
                         </div>
                         <p>8 min</p>
                     </div>
                 </div>
                 <!-- Third Video -->
                 <div class="video">
-                    <img src="" alt="">
+                    <div class="play-button-3">
+                        <img src="images/play.png" alt="play button">
+                    </div>
                     <h2>Natural Smile</h2>
                     <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
-                        <img src="" alt="">
+                        <img src="images/student_1.png" alt="student">
                         <h3>Phillip Massey</h3>
                     </div>
                     <div class="rating-container">
                         <div class="rating">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_5.png" alt="star 5">
                         </div>
                         <p>8 min</p>
                     </div>
                 </div>
                 <!-- Fourth Video -->
                 <div class="video">
-                    <img src="" alt="">
+                    <div class="play-button-4">
+                        <img src="images/play.png" alt="play button">
+                    </div>
                     <h2>Happy Smile</h2>
                     <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
-                        <img src="" alt="">
+                        <img src="images/student_1.png" alt="student">
                         <h3>Phillip Massey</h3>
                     </div>
                     <div class="rating-container">
                         <div class="rating">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_4.png" alt="star 4">
+                            <img src="images/Star_5.png" alt="star 5">
                         </div>
                         <p>8 min</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="membership-section">
             <h1><span>Free</span> membership</h1>
             <div class="membership-container">
                 <!-- First Membership -->
                 <div class="membership">
-                    <img src="" alt="">
+                    <img src="images/smile.png" alt="smile">
                     <h2>Lorem ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <!-- Second Membership -->
                 <div class="membership">
-                    <img src="" alt="">
+                    <img src="images/smile.png" alt="smile">
                     <h2>Lorem ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <!-- Third Membership -->
                 <div class="membership">
-                    <img src="" alt="">
+                    <img src="images/smile.png" alt="smile">
                     <h2>Lorem ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <!-- Fourth Membership -->
                 <div class="membership">
-                    <img src="" alt="">
+                    <img src="images/smile.png" alt="smile">
                     <h2>Lorem ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
@@ -230,11 +244,11 @@
     <footer>
         <div>
             <div>
-                <img src="" alt="">
+                <img src="images/logo.png" alt="logo">
                 <div>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
+                    <a href=""><img src="images/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="images/twitter.png" alt="twitter"></a>
+                    <a href=""><img src="images/instagram.png" alt="instagram"></a>
                 </div>
             </div>
             <p>©smileschool 2020</p>
